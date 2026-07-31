@@ -316,7 +316,7 @@ def generate_proxy_card(jp_name):
 # ============================
 # Streamlit UI
 # ============================
-st.title("Momir Proxy Printer")
+st.title("MTG Proxy Printer")
 st.write("日本語カード名を入力してプロキシを生成しよう")
 
 if "history" not in st.session_state:
